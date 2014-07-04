@@ -23,7 +23,7 @@ defmodule Chat.Mixfile do
   # { :barbat, "~> 0.1", github: "elixir-lang/barbat" }
   defp deps do
     [
-      {:phoenix, "0.3.0"},
+      {:phoenix, github: "phoenixframework/phoenix"},
       {:cowboy, "~> 0.10.0", github: "extend/cowboy", optional: true}
     ]
   end
