@@ -1,0 +1,11 @@
+<span>
+  Chat for someone called 2: <%= @user_name %>
+</span>
+
+<div id="chat-output">
+  <!-- will be appended from javascript -->
+</div>
+<form id="chat-form">
+  <input type="text" name="message" value=""></input>
+  <input type="submit" value="Send" />
+</form>
